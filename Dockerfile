@@ -1,5 +1,5 @@
-# syntax=docker/dockerfile:1
-FROM nginx:alpine
+# //syntax=docker/dockerfile:1
+FROM nginx:v1
 
 # Copy config nginx
 COPY ./.nginx/nginx.conf /etc/nginx/conf.d/default.conf
